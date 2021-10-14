@@ -1,0 +1,1 @@
+C:\Users\user\Desktop\ \Работа\Currency_Converter\Currency_Converter\Currency_Converter.csproj;arm

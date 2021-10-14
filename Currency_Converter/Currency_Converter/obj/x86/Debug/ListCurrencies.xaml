@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Currency_Converter.ListCurrencies"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Currency_Converter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignWidth="619.898" d:DesignHeight="683.328">
+
+    <Grid Background="#FFDDDDDD">
+        <ListBox x:ConnectionId='2' x:Name="listCur"                                             Background="#FFDDDDDD" Foreground="Black" FocusVisualPrimaryBrush="Black">
+            <ListBox.ItemTemplate>
+                <DataTemplate                            >
+                    <StackPanel x:ConnectionId='4' Margin="10" Orientation="Horizontal">
+                        <TextBlock x:ConnectionId='5' FontSize="16"                      HorizontalAlignment="Left" />
+                        <TextBlock x:ConnectionId='6' FontSize="16"                          HorizontalAlignment="Right" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Page>
+
